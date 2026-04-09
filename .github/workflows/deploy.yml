@@ -14,4 +14,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-// TODO
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "TODO implementar deploy"
